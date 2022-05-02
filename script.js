@@ -1,5 +1,6 @@
 let block = document.getElementById("block");
-let hole = document.getElementById("hole")
+let hole = document.getElementById("hole");
+let character = document.getElemendById("character");
 let jumping = 0;
 
 
