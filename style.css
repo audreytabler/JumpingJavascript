@@ -6,16 +6,16 @@
     width:400px;
     height:500px;
     border:1px solid black;
+    margin: auto;
     overflow:hidden;
 }
 #block{
     width:50px;
     height: 500px;
-    background-color: pink;
+    background-color: rgb(110, 65, 63);
     position: relative;
     left:400px;
-    top:-500px;
-    animation: block 1s infinite linear;
+    animation: block 2s infinite linear;
 
 }
 @keyframes block{
@@ -38,7 +38,7 @@
     width: 20px;
     height: 20px;
     background-color:rgb(125, 210, 193);
-    position: absolue;
+    position: absolute;
     top: 100px;
     border-radius:50%;
 }
