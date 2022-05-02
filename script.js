@@ -20,7 +20,7 @@ function jump(){
     jumping = 1
     let jumpCount =0;
     let jumpingInterval = setInterval(function(){
-        var characterTop = parseInt(window.getComputedStyle(character).getPropertyValue)
+        let characterTop = parseInt(window.getComputedStyle(character).getPropertyValue)
         if((character >6) && (jumpCount<15)){
             character.style.top = (characterTop -5)+"px"; //goes up 5 pixels
         }
