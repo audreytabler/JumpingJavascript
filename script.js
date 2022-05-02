@@ -28,8 +28,9 @@ function jump(){
         if (jumpCount>15){
             clearInterval(jumpingInterval)
             jumping = 0;
+            jumpCount=0;
         }
         jumpCount++;
 
-    }
+    },10);
 }
