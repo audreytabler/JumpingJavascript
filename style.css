@@ -1,6 +1,7 @@
 *{
     padding:0;
     margin:0;
+    
 }
 #game{
     width:400px;
@@ -8,6 +9,7 @@
     border:1px solid black;
     margin: auto;
     overflow:hidden;
+    background-color:white;
 }
 #block{
     width:50px;
@@ -37,7 +39,8 @@
 #character{
     width: 20px;
     height: 20px;
-    background-color:rgb(125, 210, 193);
+    background-image: url(https://cdn.discordapp.com/attachments/532065913814646784/970754893184901130/minihhummingbird.gif);
+    /*background-color:rgb(116, 214, 199);*/
     position: absolute;
     top: 100px;
     border-radius:50%;
