@@ -6,15 +6,15 @@
 #game{
     width:400px;
     height:500px;
-    border:1px solid black;
+    border:1px solid rgb(135, 146, 173);
     margin: auto;
     overflow:hidden;
-    background-color:white;
+    background-color:rgb(211, 229, 237);
 }
 #block{
     width:50px;
     height: 500px;
-    background-color: rgb(110, 65, 63);
+    background-color: rgb(135, 146, 173);
     position: relative;
     left:400px;
     animation: block 2s infinite linear;
@@ -27,7 +27,7 @@
 #hole{
     width:50px;
     height: 150px;
-    background-color:white;
+    background-color:rgb(211, 229, 237);
     position: relative;
     left:400px;
     top:-500px;
@@ -56,6 +56,6 @@
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    /*background-color:blueviolet;*/
+ 
 
 }
