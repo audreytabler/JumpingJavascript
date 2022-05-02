@@ -28,8 +28,9 @@
     background-color:white;
     position: relative;
     left:400px;
-    animation:block 2s infinite linear;
     top:-500px;
+    animation:block 2s infinite linear;
+    
 }
 
 /*# means div-- this is for the characeter*/
