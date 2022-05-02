@@ -43,5 +43,19 @@
     /*background-color:rgb(116, 214, 199);*/
     position: absolute;
     top: 100px;
+    left:500px;
     border-radius:50%;
+}
+#showcounter{
+    width:30px;
+    height: 30px;
+    left:840px;
+    top:460px;
+    position:absolute;
+    color:rgb(23, 18, 67);
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    /*background-color:blueviolet;*/
+
 }
