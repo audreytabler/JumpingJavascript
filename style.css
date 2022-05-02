@@ -6,6 +6,8 @@
 #game{
     width:400px;
     height:500px;
+    position:fixed;
+    left:20px;
     border:1px solid rgb(135, 146, 173);
     margin: auto;
     overflow:hidden;
@@ -43,15 +45,20 @@
     /*background-color:rgb(116, 214, 199);*/
     position: absolute;
     top: 100px;
-    left:500px;
+   /* left:500px;*/
     border-radius:50%;
 }
 #showcounter{
     width:30px;
-    height: 30px;
-    left:840px;
-    top:460px;
     position:absolute;
+    right:20px;
+    bottom:10px;
+    /*left:840px;
+    top:460px;*/
+    
+  font-size: 18px;
+   /* left:840px;
+    top:460px;*/
     color:rgb(23, 18, 67);
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
