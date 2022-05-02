@@ -8,6 +8,7 @@ hole.addEventListener('animationiteration', () => {
     var random = -((Math.random()*300)+150);
     hole.style.top = random + "px";
     counter++;
+    document.getElementById("showcounter").innerHTML = counter;
 });
 setInterval(function(){
     var characterTop = parseInt(window.getComputedStyle(character).getPropertyValue("top"));
@@ -22,6 +23,7 @@ setInterval(function(){
         //alert("Game over. Score: "+(counter-1));
         character.style.top = 100 + "px";
         counter=0;
+        document.getElementById("showcounter").innerHTML = counter;
     }
 },10);  //this function runs every 10 ms and will keep returning the top position of the character div
 
